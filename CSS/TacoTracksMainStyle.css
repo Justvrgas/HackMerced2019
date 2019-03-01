@@ -14,7 +14,9 @@ body{
 
 #main-header{
 	background-color: coral;
-	color: #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
 }
 
 #navbar{
@@ -36,4 +38,8 @@ body{
 	text-decoration: none;
 	font-size: 18px;
 	padding-right: 15px;
+}
+
+footer{
+    color: #fff;
 }
