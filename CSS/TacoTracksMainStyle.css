@@ -4,3 +4,35 @@ body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: coral;
+	color: #fff;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
