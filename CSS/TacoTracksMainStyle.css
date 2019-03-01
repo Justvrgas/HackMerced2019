@@ -5,11 +5,12 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
+.container {
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
 }
+
 
 #main-header{
 	background-color: coral;
