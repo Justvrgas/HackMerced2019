@@ -21,16 +21,23 @@ body{
 
 #navbar{
 	background-color: #333;
-	color: #fff;
+	color:red;
 }
 
 #navbar ul{
+    background-color: #333;
 	padding: 0;
 	list-style: none;
 }
 
 #navbar li{
-	display: inline;
+    display: inline;
+    padding: 100px;
+    margin: 0;
+}
+
+#navbar ul li:hover{
+    background-color: coral;
 }
 
 #navbar a{
@@ -41,5 +48,13 @@ body{
 }
 
 footer{
-    color: #fff;
+    position: fixed;
+    height: 50px;
+    background-color: coral;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    
 }
