@@ -1,0 +1,223 @@
+body{
+    color: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.container {
+  padding-top: 10px;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+#main-header{
+	background-color: teal;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#navbar{
+	background-color: #333;
+}
+
+#navbar ul{
+  
+    background-color: #333;
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    padding: 45px;
+
+    margin-left: 7.5%;
+}
+
+#navbar ul li:hover{
+    background-color: #f4f4ff;
+}
+
+
+#navbar a{
+    color: teal;
+    font-family: 'Luckiest Guy', cursive;
+     text-decoration: none;
+     font-size: 18px;
+	   padding-right: 15px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        margin:100px 0px 0px 0px;
+        height: 70%;
+        width: 55%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }
+    
+
+#sidebar{
+    margin-top: 40px;
+	float: right;
+    width: 40%;
+    height: 65%;
+    border-left-color:teal;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-right-color:teal;
+    border-right-width: 10px;
+    border-right-style: solid;
+	color: teal;
+    padding: 10px;
+    margin-right: 40px;
+	box-sizing: border-box;
+  overflow: auto; /* Makes it possible to scroll in the nearby resturant section */
+}
+
+
+#sidebar h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 5vh;
+}
+
+#sidebar li{
+    list-style: upper-alpha;
+    font-size: 30px;
+    
+}
+
+#sidebar li a{
+    color:teal;
+    font-style: none;
+    text-decoration: none;
+}
+
+#sidebar li a:hover{
+    color:black;
+}
+
+#sidebar p{
+    font-size: 20px;
+}
+
+label{
+  color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2vh;
+}
+
+input[type=submit]:hover {
+  background-color: #01646C;
+}
+
+input[type=text], textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+input[type=submit] {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: teal;
+  color: white;
+  padding: 15px 20px;
+  font-size: 4vh;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    height: 50px;
+    background-color: Teal;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
