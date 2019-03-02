@@ -21,131 +21,141 @@ body{
 }
 
 #navbar{
+  height: 60px;
+  width: 100%;
 	background-color: #333;
 }
 
 #navbar ul{
-    background-color: #333;
-	padding: 0;
-	list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 #navbar li{
-    display: inline;
-    padding: 100px;
-    margin-left: 5.5%;
+  float: left;
 }
 
-#navbar ul li:hover{
-    background-color: #f4f4ff;
+#navbar li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px 14px 80px;;
+  position: center;
+  
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  background-color: white;
+  color: teal;
+    
 }
 
 
 #navbar a{
     color: teal;
     font-family: 'Luckiest Guy', cursive;
-	text-decoration: none;
-	font-size: 18px;
-	padding-right: 15px;
+  	text-decoration: none;
+	  font-size: 32px;
+	  padding-right: 15px;
 }
 
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-       #map {
-        margin:100px 0px 0px 0px;
-        height: 70%;
-        width: 55%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      
+#map {
+    float: left;
+    margin:100px 0px 0px 0px;
+    height: 70%;
+    width: 55%;
+        
+}
 
-      #infowindow-content .title {
-        font-weight: bold;
-      }
+#infowindow-content .title {
+  font-weight: bold;
+}
 
-      #infowindow-content {
-        display: none;
-      }
+#infowindow-content {
+  display: none;
+}
 
-      #map #infowindow-content {
-        display: inline;
-      }
+#map #infowindow-content {
+  display: inline;
+}
 
-      .pac-card {
-        margin: 10px 10px 0 0;
-        border-radius: 2px 0 0 2px;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        outline: none;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-        background-color: #fff;
-        font-family: Roboto;
-      }
+.pac-card {
+  
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
 
-      #pac-container {
-        padding-bottom: 12px;
-        margin-right: 12px;
-      }
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
 
-      .pac-controls {
-        display: inline-block;
-        padding: 5px 11px;
-      }
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
 
-      .pac-controls label {
-        font-family: Roboto;
-        font-size: 13px;
-        font-weight: 300;
-      }
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
 
-      #pac-input {
-        background-color: #fff;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-        margin-left: 12px;
-        padding: 0 11px 0 13px;
-        text-overflow: ellipsis;
-        width: 400px;
-      }
+#pac-input {
+  
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
 
-      #pac-input:focus {
-        border-color: #4d90fe;
-      }
+#pac-input:focus {
+  border-color: #4d90fe;
+}
 
-      #title {
-        color: #fff;
-        background-color: #4d90fe;
-        font-size: 25px;
-        font-weight: 500;
-        padding: 6px 12px;
-      }
-      #target {
-        width: 345px;
-      }
-    
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+#target {
+  
+  width: 345px;
+}
+     
 
 #sidebar{
-    margin-top: 40px;
-	float: right;
+    margin-top: 100px;
+	  float: right;
     width: 40%;
-    height: 65%;
+    height: 70%;
     border-left-color:teal;
     border-left-width: 10px;
     border-left-style: solid;
     border-right-color:teal;
     border-right-width: 10px;
     border-right-style: solid;
-	color: teal;
+	  color: teal;
     padding: 10px;
     margin-right: 40px;
-	box-sizing: border-box;
-  overflow: auto; /* Makes it possible to scroll in the nearby resturant section */
+	  box-sizing: border-box;
+    
 }
 
 
@@ -177,10 +187,11 @@ body{
 }
 
 footer{
-    position: fixed;
+    position: bottom;
     height: 50px;
     background-color: Teal;
     bottom: 0px;
+    margin-top: 47%;
     left: 0px;
     right: 0px;
     text-align: center;
