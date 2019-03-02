@@ -1,67 +1,54 @@
 body{
-  color: white;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
+    color: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
 }
 
 .container {
-width: 80%;
-margin: auto;
-overflow: hidden;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
 
 #main-header{
-background-color: teal;
-  color: #fff;
-  text-align: center;
-  font-size: 32px;
-  font-family: 'Luckiest Guy', cursive;
+  background-color: teal;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 #navbar{
-height: 60px;
-width: 100%;
-background-color: #333;
+  background-color: #333;
 }
 
-#navbar ul{ 
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
+#navbar ul{
+    background-color: #333;
+  padding: 0;
+  list-style: none;
 }
 
 #navbar li{
-float: left;
+    display: inline;
+    padding: 100px;
+    margin-left: 5.5%;
 }
 
-#navbar li a{
-display: inline-block;
-color: white;
-text-align: center;
-padding: 14px 80px 14px 80px;
-position: center;
-
-text-decoration: none;
-}
-
-#navbar a:hover{
-background-color: white;
-color: teal;
-  
+#navbar ul li:hover{
+    background-color: #f4f4ff;
 }
 
 
 #navbar a{
-  color: teal;
-  font-family: 'Luckiest Guy', cursive;
+    color: teal;
+    font-family: 'Luckiest Guy', cursive;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 18px;
   padding-right: 15px;
 }
+
 
 #motto{
   font-size: 32px;
