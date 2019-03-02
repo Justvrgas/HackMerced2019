@@ -145,6 +145,7 @@ body{
     padding: 10px;
     margin-right: 40px;
 	box-sizing: border-box;
+  overflow: auto; /* Makes it possible to scroll in the nearby resturant section */
 }
 
 

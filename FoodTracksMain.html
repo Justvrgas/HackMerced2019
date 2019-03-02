@@ -84,6 +84,7 @@
                     for (var i = 0; i < beaches.length; i++) {
                       var beach = beaches[i];
                       var marker = new google.maps.Marker({
+                      	animation: google.maps.Animation.DROP,
                         position: {lat: beach[1], lng: beach[2]},
                         map: map,
                        // icon: image,
