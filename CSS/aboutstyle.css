@@ -113,7 +113,7 @@ body{
 footer{
     position: fixed;
     height: 50px;
-    background-color: #333;
+    background-color: teal;
     bottom: 0px;
     left: 0px;
     right: 0px;
