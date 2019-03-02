@@ -1,0 +1,105 @@
+body{
+    
+    color: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+
+
+#main-header{
+	background-color: teal;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#navbar{
+	background-color: #333;
+}
+
+#navbar ul{
+    background-color: #333;
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    padding: 100px;
+    margin-left: 5.5%;
+}
+
+#navbar ul li:hover{
+    background-color: #f4f4ff;
+}
+
+
+#navbar a{
+    color: teal;
+    font-family: 'Luckiest Guy', cursive;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#sidebar{
+    margin-top: 40px;
+	float: right;
+    width: 40%;
+    height: 65%;
+    border-left-color:teal;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-right-color:teal;
+    border-right-width: 10px;
+    border-right-style: solid;
+	color: teal;
+    padding: 10px;
+    margin-right: 40px;
+	box-sizing: border-box;
+}
+
+#sidebar h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 5vh;
+}
+
+#sidebar li{
+    list-style: upper-alpha;
+    font-size: 30px;
+    
+}
+
+#sidebar li a{
+    color:teal;
+    font-style: none;
+    text-decoration: none;
+}
+
+#sidebar p{
+    font-size: 20px;
+}
+
+footer{
+    position: fixed;
+    height: 50px;
+    background-color: Teal;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
