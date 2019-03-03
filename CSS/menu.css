@@ -17,7 +17,7 @@ background-color: teal;
   color: #fff;
   text-align: center;
   font-size: 32px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Boogaloo', cursive;
 }
 
 #navbar{
@@ -146,4 +146,16 @@ float: left;
   font-weight: bold;
   font-family: arial;
   margin-top: -22px;
+}
+
+
+footer{
+  position: fixed;
+  height: 50px;
+  background-color: teal;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  margin-bottom: 0px;
 }

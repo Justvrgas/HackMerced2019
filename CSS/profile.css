@@ -17,7 +17,7 @@ body{
     color: #fff;
     text-align: center;
     font-size: 32px;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Boogaloo', cursive;
 }
 
 #navbar{
@@ -194,7 +194,7 @@ body{
 
   padding-left: 300px;
   max-width: 680px;
-  margin-top: 30px;
+  margin-top: 900px;
   /*margin-right: 250px;
   padding-left: 50px;*/
   display: block;
@@ -252,7 +252,7 @@ body{
   float: right;
   max-width: 680px;
   padding-right: 300px; 
-  
+  margin-top: 15px;
   
   display: block;
   color: rgb(92, 92, 92);

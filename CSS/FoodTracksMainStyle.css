@@ -17,7 +17,7 @@ body{
     color: #fff;
     text-align: center;
     font-size: 32px;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Boogaloo', cursive;
 }
 
 #navbar{
@@ -163,7 +163,7 @@ body{
 
 
 #sidebar h1{
-    font-family: 'Luckiest Guy', cursive;
+  font-family: 'Boogaloo', cursive;
     text-align: center;
     font-size: 5vh;
 }
