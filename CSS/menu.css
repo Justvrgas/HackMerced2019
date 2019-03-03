@@ -66,13 +66,15 @@ color: teal;
 #motto{
   font-size: 32px;
   text-align: center;
-  
+  font-family: 'Luckiest Guy', cursive;
+  color: teal;
 }
 
 .motto p{
   margin-left: 0%;
   margin-right: 0%;
 }
+
 
 
 .motto{
@@ -110,7 +112,8 @@ float: left;
 }
  
 .menu-section-title {
-  font-family: georgia;
+  font-family: 'Luckiest Guy', cursive;
+  color: teal;
   font-size: 50px;
   display: block;
   font-weight:normal;
