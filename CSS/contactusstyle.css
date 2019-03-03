@@ -6,6 +6,7 @@ body{
 }
 
 .container {
+  padding-top: 10px;
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
@@ -25,6 +26,7 @@ body{
 }
 
 #navbar ul{
+  
     background-color: #333;
 	padding: 0;
 	list-style: none;
@@ -32,8 +34,9 @@ body{
 
 #navbar li{
     display: inline;
-    padding: 100px;
-    margin-left: 5.5%;
+    padding: 45px;
+
+    margin-left: 7.5%;
 }
 
 #navbar ul li:hover{
@@ -149,7 +152,6 @@ body{
 }
 
 
-
 #sidebar h1{
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
@@ -174,6 +176,38 @@ body{
 
 #sidebar p{
     font-size: 20px;
+}
+
+label{
+  color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2vh;
+}
+
+input[type=submit]:hover {
+  background-color: #01646C;
+}
+
+input[type=text], textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+input[type=submit] {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: teal;
+  color: white;
+  padding: 15px 20px;
+  font-size: 4vh;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 footer{
