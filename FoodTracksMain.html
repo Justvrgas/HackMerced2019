@@ -19,98 +19,20 @@
         </header>
     
         <nav id="navbar">
-            <div class="container">
+            
                 <ul>
                     <li><a href="FoodTracksMain.html">Home</a></li>
                     <li><a href="about.html">About</a></li>  
                     <li><a href="contactus.html">Contact Us</a></li>
                     <li><a href="#">Open Shop</a></li>
                 </ul>
-            </div>	
+
+
+            	
         </nav>
 
 
-        <aside id = "map">
-
-              
-                <div id="content">
-                 
-                </div>
-                <script>
-                  var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-                  var labelIndex = 0;
-            
-              function initMap() {
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                      zoom: 15,
-                      center: {lat: 37.30126, lng: -120.48619}
-                    });
-            
-                    setMarkers(map);
-            
-                  }
-            
-                  // Data for the markers consisting of a name, a LatLng and a zIndex for the
-                  // order in which these markers should display on top of each other.
-                  var beaches = [
-                    ['Bondi Beach', 37.3023, -120.4832, 4],
-                    ['Coogee Beach', 37.30126, -120.48619, 5],
-                    ['Cronulla Beach', 37.2984, -120.4819, 3],
-                     ['Manly Beach', 37.3006, -120.4957, 2],
-                    ['Maroubra Beach', 37.3065, -120.4840, 1]
-                  ];
-            
-                  function setMarkers(map) {
-                    // Adds markers to the map.
-            
-                    // Marker sizes are expressed as a Size of X,Y where the origin of the image
-                    // (0,0) is located in the top left of the image.
-            
-                    // Origins, anchor positions and coordinates of the marker increase in the X
-                    // direction to the right and in the Y direction down.
-                    var image = {
-                      url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-                      // This marker is 20 pixels wide by 32 pixels high.
-                     
-                      // The origin for this image is (0, 0).
-                      origin: new google.maps.Point(0, 0),
-                      // The anchor for this image is the base of the flagpole at (0, 32).
-                      
-                    };
-                    // Shapes define the clickable region of the icon. The type defines an HTML
-                    // <area> element 'poly' which traces out a polygon as a series of X,Y points.
-                    // The final coordinate closes the poly by connecting to the first coordinate.
-                    
-                    for (var i = 0; i < beaches.length; i++) {
-                      var beach = beaches[i];
-                      var marker = new google.maps.Marker({
-                      	animation: google.maps.Animation.DROP,
-                        position: {lat: beach[1], lng: beach[2]},
-                        map: map,
-                       // icon: image,
-                       // shape: shape,
-                        label: labels[labelIndex++ % labels.length],
-                        title: beach[0],
-                        zIndex: beach[3]
-                      });
-            
-                    }
-                  }
-                  function toggleBounce() {
-                    if (marker.getAnimation() !== null) {
-                      marker.setAnimation(null);
-                    } else {
-                      marker.setAnimation(google.maps.Animation.BOUNCE);
-                    }
-                  }
-                </script>
-                <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuCW-j_dQNnSGZDQ3kTJPbXYDuuaK8HF4&libraries=places&callback=initMap">
-                </script>
-
-
-
-        </aside>
+        
 
 
         <aside id="sidebar">
@@ -130,6 +52,89 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum perferendis consequuntur, porro unde veritatis aut non corporis? Blanditiis, nisi vero?</p>
             
         </aside>
+
+        <aside id = "map">
+
+              
+            <div id="container">
+             
+            
+            <script>
+              var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+              var labelIndex = 0;
+        
+          function initMap() {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 15,
+                  center: {lat: 37.30126, lng: -120.48619}
+                });
+
+
+        
+                setMarkers(map);
+        
+              }
+        
+              // Data for the markers consisting of a name, a LatLng and a zIndex for the
+              // order in which these markers should display on top of each other.
+              var beaches = [
+                ['Bondi Beach', 37.3023, -120.4832, 4],
+                ['Coogee Beach', 37.30126, -120.48619, 5],
+                ['Cronulla Beach', 37.2984, -120.4819, 3],
+                 ['Manly Beach', 37.3006, -120.4957, 2],
+                ['Maroubra Beach', 37.3065, -120.4840, 1]
+              ];
+        
+              function setMarkers(map) {
+                // Adds markers to the map.
+        
+                // Marker sizes are expressed as a Size of X,Y where the origin of the image
+                // (0,0) is located in the top left of the image.
+        
+                // Origins, anchor positions and coordinates of the marker increase in the X
+                // direction to the right and in the Y direction down.
+                var image = {
+                  url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+                  // This marker is 20 pixels wide by 32 pixels high.
+                 
+                  // The origin for this image is (0, 0).
+                  origin: new google.maps.Point(0, 0),
+                  // The anchor for this image is the base of the flagpole at (0, 32).
+                  
+                };
+                // Shapes define the clickable region of the icon. The type defines an HTML
+                // <area> element 'poly' which traces out a polygon as a series of X,Y points.
+                // The final coordinate closes the poly by connecting to the first coordinate.
+                
+                for (var i = 0; i < beaches.length; i++) {
+                  var beach = beaches[i];
+                  var marker = new google.maps.Marker({
+                    position: {lat: beach[1], lng: beach[2]},
+                    map: map,
+                   // icon: image,
+                   // shape: shape,
+                    label: labels[labelIndex++ % labels.length],
+                    title: beach[0],
+                    zIndex: beach[3]
+                  });
+        
+                }
+              }
+              function toggleBounce() {
+                if (marker.getAnimation() !== null) {
+                  marker.setAnimation(null);
+                } else {
+                  marker.setAnimation(google.maps.Animation.BOUNCE);
+                }
+              }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuCW-j_dQNnSGZDQ3kTJPbXYDuuaK8HF4&libraries=places&callback=initMap">
+            </script>
+
+           
+
+    </aside>
 
 
     </body>
