@@ -161,6 +161,7 @@ label.active {
           transform: translateY(50px);
   left: 2px;
   font-size: 14px;
+  
 }
 label.active .req {
   opacity: 0;
@@ -183,6 +184,9 @@ input, textarea {
   border-radius: 0;
   transition: border-color .25s ease, box-shadow .25s ease;
 }
+
+
+
 input:focus, textarea:focus {
   outline: 0;
   border-color: #1ab188;
