@@ -20,35 +20,49 @@ body{
     font-family: 'Luckiest Guy', cursive;
 }
 
-nav {
-  height: 40px;
+#navbar{
+  height: 60px;
   width: 100%;
   background-color: #333;
-  color: #eee;
+  margin-bottom: 0;
 }
-nav ul {
-  padding: 0;
+
+#navbar ul{ 
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-nav li {
-  display: inline;
+
+#navbar li{
   float: left;
+  margin-left: 150px;
 }
-nav a {
+
+#navbar li a{
   display: inline-block;
-  width: 100px;
+  color: white;
   text-align: center;
+  padding: 14px 80px 14px 80px;;
+  position: center;
+  
   text-decoration: none;
-  padding: 10px 0;
-  color: #eee;
-  text-decoration: none;
-  font-size: 20px;
 }
-nav li:hover {
-  background-color: #444;
+
+#navbar a:hover{
+  background-color: white;
+  color: teal;
+    
 }
-nav a#openup {
-  display: none;
+
+
+#navbar a{
+    color: teal;
+    font-family: 'Luckiest Guy', cursive;
+  	text-decoration: none;
+	font-size: 32px;
+	padding-right: 15px;
 }
 
 #map {
