@@ -21,17 +21,25 @@
             </div>	
         </header>
     
-        <nav id="navbar">
-            
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>  
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="openshop.html">Open Shop</a></li>
-                </ul>
-
-
-            	
+        <nav class='cf'>
+          <ul class='cf'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='contact.html'>Contact Us</a>
+            </li>
+            <li>
+              <a href='openshop.html'>Open Shop</a>
+            </li>
+          </ul>
+          <a href='#' id='openup'>MENU</a>
         </nav>
 
 
@@ -61,8 +69,24 @@
               
             <div id="container">
              
+
+        </aside>
+
+
+   </body>     
             
-            <script>
+
+   <footer>
+
+    <p>This is the Footer.</p>
+    
+  </footer>
+
+
+
+
+
+    <script>
               var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
               var labelIndex = 0;
         
@@ -130,28 +154,44 @@
                   marker.setAnimation(google.maps.Animation.BOUNCE);
                 }
               }
-            </script>
-            <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuCW-j_dQNnSGZDQ3kTJPbXYDuuaK8HF4&libraries=places&callback=initMap">
-            </script>
+
+              $(function() {
+                menu = $('nav ul');
+
+                $('#openup').on('click', function(e) {
+                  e.preventDefault(); menu.slideToggle();
+                });
+                
+                $(window).resize(function(){
+                  var w = $(this).width(); if(w > 480 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                  }
+                });
+                
+                $('nav li').on('click', function(e) {                
+                  var w = $(window).width(); if(w < 480 ) {
+                    menu.slideToggle(); 
+                  }
+                });
+                $('.open-menu').height($(window).height());
+              });
+           
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuCW-j_dQNnSGZDQ3kTJPbXYDuuaK8HF4&libraries=places&callback=initMap">
+    </script>
 
            
 
-    </aside>
-
-
-    </body>
+   
 
 
 
 
 
 
-    <footer>
-
-        <p>This is the Footer.</p>
-        
-      </footer>
+   
 
 
 </html>

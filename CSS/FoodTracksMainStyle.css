@@ -20,47 +20,35 @@ body{
     font-family: 'Luckiest Guy', cursive;
 }
 
-#navbar{
-  height: 60px;
+nav {
+  height: 40px;
   width: 100%;
-	background-color: #333;
-}
-
-#navbar ul{ 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   background-color: #333;
+  color: #eee;
 }
-
-#navbar li{
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
   float: left;
 }
-
-#navbar li a{
+nav a {
   display: inline-block;
-  color: white;
+  width: 100px;
   text-align: center;
-  padding: 14px 80px 14px 80px;
-  position: center;
-  
   text-decoration: none;
+  padding: 10px 0;
+  color: #eee;
+  text-decoration: none;
+  font-size: 20px;
 }
-
-#navbar a:hover{
-  background-color: white;
-  color: teal;
-    
+nav li:hover {
+  background-color: #444;
 }
-
-
-#navbar a{
-    color: teal;
-    font-family: 'Luckiest Guy', cursive;
-  	text-decoration: none;
-	  font-size: 32px;
-	  padding-right: 15px;
+nav a#openup {
+  display: none;
 }
 
 #map {
@@ -200,3 +188,70 @@ footer{
     margin-bottom: 0px;
     
 }
+
+
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.8em;
+  }
+
+  nav {
+    height: auto;
+    border-bottom: 0;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+  }
+  nav li {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+    background: #333;
+    border-bottom: 1px solid #555;
+  }
+  nav a:hover {
+    background: #444;
+  }
+  nav a#openup:after {
+    content: "|||";
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Safari and Chrome */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+  }
+  nav a#openup {
+    display: block;
+    background-color: #333;
+    width: 100%;
+    position: relative;
+  }
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
