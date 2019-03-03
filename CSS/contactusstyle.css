@@ -21,13 +21,18 @@ body{
 }
 
 #navbar{
-	background-color: #333;
+	height: 60px;
+  width: 100%;
+  background-color: #333;
+  margin-bottom: 0;
 }
 
 #navbar ul{
-    background-color: #333;
-	padding: 0;
-	list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 #navbar li{
@@ -42,11 +47,17 @@ body{
 
 
 #navbar a{
-    color: teal;
-    font-family: 'Luckiest Guy', cursive;
-     text-decoration: none;
-     font-size: 18px;
-	   padding-right: 15px;
+  color: teal;
+  font-family: 'Luckiest Guy', cursive;
+  text-decoration: none;
+  font-size: 32px;
+  padding-right: 15px;
+}
+
+#navbar a:hover{
+  background-color: white;
+  color: teal;
+    
 }
 
 /* Always set the map height explicitly to define the size of the div
