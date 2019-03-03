@@ -176,6 +176,11 @@ body{
     font-size: 20px;
 }
 
+label{
+  color: #333;
+  font-family: 'Luckiest Guy', cursive;
+}
+
 input[type=text], textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */  
@@ -188,12 +193,18 @@ input[type=text], textarea {
 }
 
 input[type=submit] {
-  background-color: red;
+  background-color: teal;
+  font-family: 'Luckiest Guy', cursive;
   color: white;
-  padding: 12px 20px;
+  padding: 15px 25px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 4vh;
+}
+input[type=submit]:hover{
+  font-family: 'Luckiest Guy', cursive;
+  color: #01646C;
 }
 
 footer{
