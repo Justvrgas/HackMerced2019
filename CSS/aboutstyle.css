@@ -2,7 +2,7 @@ body{
     color: white;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-color: teal;
 }
 
 .container {
@@ -10,6 +10,8 @@ body{
 	margin: auto;
 	overflow: hidden;
 }
+
+
 
 
 #main-header{
@@ -21,81 +23,97 @@ body{
 }
 
 #navbar{
-	background-color: #333;
+  height: 60px;
+  width: 100%;
+  background-color: #333;
+  margin-bottom: 0;
 }
 
-#navbar ul{
-    background-color: #333;
-	padding: 0;
-	list-style: none;
+#navbar ul{ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 #navbar li{
-    display: inline;
-    padding: 100px;
-    margin-left: 5.5%;
+  float: left;
 }
 
-#navbar ul li:hover{
-    background-color: #f4f4ff;
+#navbar li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px 14px 80px;;
+  position: center;
+  
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  background-color: white;
+  color: teal;
+    
 }
 
 
 #navbar a{
     color: teal;
     font-family: 'Luckiest Guy', cursive;
-	text-decoration: none;
-	font-size: 18px;
+  	text-decoration: none;
+	font-size: 32px;
 	padding-right: 15px;
 }
 
-#sidebar{
-    margin-top: 40px;
-	float: right;
-    width: 40%;
-    height: 65%;
-    border-left-color:teal;
-    border-left-width: 10px;
-    border-left-style: solid;
-    border-right-color:teal;
-    border-right-width: 10px;
-    border-right-style: solid;
-	color: teal;
-    padding: 10px;
-    margin-right: 40px;
-	box-sizing: border-box;
-}
+  
 
-#sidebar h1{
-    font-family: 'Luckiest Guy', cursive;
+.center{
     text-align: center;
-    font-size: 5vh;
+    margin:auto;
 }
 
-#sidebar li{
-    list-style: upper-alpha;
-    font-size: 30px;
-    
+#about{
+    background-color: white;
+    color: #333;
+    margin-top:0;
+    padding: 0;
+    height: 755px;
+    width: 100%;  
 }
 
-#sidebar li a{
-    color:teal;
-    font-style: none;
-    text-decoration: none;
+#about h2{
+    text-align: center;
+    font-size: 64px;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-#sidebar li a:hover{
-    color:black;
+.grid-2{
+    padding-top:5%;
+    margin-top:0;
+    display: grid;
+    position: center;
+    grid-gap: 0px;
+    grid-template-columns: repeat(2 , 1fr);
+    position: fixed;
 }
 
-#sidebar p{
-    font-size: 20px;
+.grid-2 p{
+    margin-right: 200px;
+    font-size: 48px;
+    font-family: 'Luckiest Guy', cursive;
 }
+
+
+
 
 footer{
     position: fixed;
     height: 50px;
-    background-color: Teal;
+    background-color: #333;
     bottom: 0px;
     left: 0px;
     right: 0px;

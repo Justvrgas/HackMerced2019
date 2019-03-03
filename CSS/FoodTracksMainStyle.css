@@ -26,7 +26,7 @@ body{
 	background-color: #333;
 }
 
-#navbar ul{
+#navbar ul{ 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -93,6 +93,7 @@ body{
 }
 
 #sidebar li a{
+    font-family: 'Boogaloo', cursive;
     color:teal;
     font-style: none;
     text-decoration: none;
@@ -103,6 +104,7 @@ body{
 }
 
 #sidebar p{
+    font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 20px;
 }
 

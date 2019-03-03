@@ -1,0 +1,130 @@
+body{
+    color: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+#main-header{
+  background-color: teal;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#navbar{
+  background-color: #333;
+}
+
+#navbar ul{
+    background-color: #333;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    padding: 100px;
+    margin-left: 5.5%;
+}
+
+#navbar ul li:hover{
+    background-color: #f4f4ff;
+}
+
+
+#navbar a{
+    color: teal;
+    font-family: 'Luckiest Guy', cursive;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+
+#motto{
+  font-size: 32px;
+  text-align: center;
+  
+}
+
+.motto p{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+
+.motto{
+  
+  text-align: center; 
+  display: block;
+  color: rgb(92, 92, 92);
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+
+.info{
+float: left;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-top:200px;
+  display: block;
+  color: rgb(92, 92, 92);
+
+}
+
+.menu-body {
+  float: right;
+  max-width: 680px;
+  margin-top: 10px;
+  margin-right: 300px;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+ 
+.menu-section {
+  margin-bottom: 80px;
+}
+ 
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+}
+ 
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+ 
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+ 
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+ 
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
