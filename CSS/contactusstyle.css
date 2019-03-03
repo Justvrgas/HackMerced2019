@@ -9,12 +9,13 @@ body{
 	width: 80%;
 	margin: auto;
   overflow: hidden;
-  padding-top: 40px;
+  
 }
 
 
 #main-header{
-	background-color: teal;
+  background-color: teal;
+  padding: 0;
     color: #fff;
     text-align: center;
     font-size: 32px;
@@ -66,7 +67,10 @@ body{
 	padding-right: 15px;
 }
 
-
+form{
+  padding-top: 100px;
+  font-size: 32px;
+}
 
 
 label{

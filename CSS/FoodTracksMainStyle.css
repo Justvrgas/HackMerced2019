@@ -200,8 +200,12 @@ footer{
     right: 0px;
     text-align: center;
     margin-bottom: 0px;
-    
-}
+    }
+
+    footer p{
+      padding-top: 10px;
+      background-color: teal;
+    }
 
 
 

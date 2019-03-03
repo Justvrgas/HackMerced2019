@@ -1,6 +1,6 @@
 body{
     color: white;
-    /*margin: 0;*/
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: teal;
 }
@@ -85,6 +85,7 @@ body{
 }
 
 #about h2{
+  font-family: 'Luckiest Guy', cursive;
     text-align: center;
     font-size: 64px;
     padding-top: 100px;
