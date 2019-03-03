@@ -37,7 +37,7 @@ body{
 
 #navbar li{
   float: left;
-  margin-left: 150px;
+  margin-left: 180px;
 }
 
 #navbar li a{
@@ -188,6 +188,7 @@ body{
 #sidebar p{
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 20px;
+    color: #333;
 }
 
 footer{

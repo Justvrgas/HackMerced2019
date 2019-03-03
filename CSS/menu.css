@@ -24,6 +24,7 @@ background-color: teal;
 height: 60px;
 width: 100%;
 background-color: #333;
+margin-bottom: 0;
 }
 
 #navbar ul{ 
@@ -36,13 +37,14 @@ background-color: #333;
 
 #navbar li{
 float: left;
+margin-left: 100px;
 }
 
 #navbar li a{
 display: inline-block;
 color: white;
 text-align: center;
-padding: 14px 80px 14px 80px;
+padding: 14px 80px 14px 80px;;
 position: center;
 
 text-decoration: none;
@@ -59,8 +61,8 @@ color: teal;
   color: teal;
   font-family: 'Luckiest Guy', cursive;
   text-decoration: none;
-  font-size: 32px;
-  padding-right: 15px;
+font-size: 32px;
+padding-right: 15px;
 }
 
 #motto{
@@ -88,6 +90,7 @@ color: teal;
 
 
 .info{
+  font-size: 24px;
 float: left;
   max-width: 600px;
   margin-top: 50px;
@@ -101,7 +104,7 @@ float: left;
 .menu-body {
   float: right;
   max-width: 680px;
-  margin-top: 10px;
+  margin-top: 100px;
   margin-right: 300px;
   display: block;
   color: rgb(92, 92, 92);
